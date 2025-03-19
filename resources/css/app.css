@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+header nav a, header nav button {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+header nav button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.cart-table, .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-table th, .cart-table td, .orders-table th, .orders-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.cart-table th, .orders-table th {
+    background-color: #f2f2f2;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
